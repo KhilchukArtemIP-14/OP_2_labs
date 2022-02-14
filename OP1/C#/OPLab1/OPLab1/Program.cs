@@ -10,9 +10,9 @@ namespace OPLab1
             Console.WriteLine("Please, input file directory");
             string directory = Console.ReadLine();
             Console.WriteLine("Please, input file name");
-            string name = Console.ReadLine();
-            string fullDirectory = String.Concat(directory, '\\', name, ".txt");
-            FileStream fs = new FileStream(fullDirectory, FileMode.OpenOrCreate, FileAccess.Write);
+            string name1 = Console.ReadLine();
+            string fullDirectory1 = String.Concat(directory, '\\', name1, ".txt");
+            FileStream fs = new FileStream(fullDirectory1, FileMode.OpenOrCreate, FileAccess.Write);
             string input;
             using(StreamWriter sw= new StreamWriter(fs))
             {
@@ -24,7 +24,7 @@ namespace OPLab1
                     sw.WriteLine(input);
                 }
             }
-            string[] allStrings = File.ReadAllLines(fullDirectory);
+            string[] allStrings = File.ReadAllLines(fullDirectory1);
             string tempStr;
             for (int i = 0; i < allStrings.Length - 1; i++)
             {
@@ -44,9 +44,9 @@ namespace OPLab1
                 Console.WriteLine(num);
             }
             Console.WriteLine("Please, input name for output file:");
-            name = Console.ReadLine();
-            fullDirectory = String.Concat(directory, '\\', name, ".txt");
-            fs = new FileStream(fullDirectory, FileMode.OpenOrCreate, FileAccess.Write);
+            string name2 = Console.ReadLine();
+            string fullDirectory2 = String.Concat(directory, '\\', name2, ".txt");
+            fs = new FileStream(fullDirectory2, FileMode.OpenOrCreate, FileAccess.Write);
             using(StreamWriter sw = new StreamWriter(fs))
             {
                 for (int i = 0; i < allStrings.Length; i++)
@@ -55,6 +55,16 @@ namespace OPLab1
                 }
             }
             Console.WriteLine("Execution ended successfully. Check your file");
+            Console.WriteLine("Initial state of file:");
+            foreach (string num in File.ReadAllLines(fullDirectory1))
+            {
+                Console.WriteLine(num);
+            }
+            Console.WriteLine("Final state of file:");
+            foreach (string num in File.ReadAllLines(fullDirectory2))
+            {
+                Console.WriteLine(num);
+            }
         }
     }
 }
