@@ -1,0 +1,13 @@
+C:\Users\Artem\source\repos\OPLab1\OPLab1\obj\Debug\netcoreapp3.1\OPLab1.csproj.AssemblyReference.cache
+C:\Users\Artem\source\repos\OPLab1\OPLab1\obj\Debug\netcoreapp3.1\OPLab1.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\OPLab1\OPLab1\obj\Debug\netcoreapp3.1\OPLab1.AssemblyInfo.cs
+C:\Users\Artem\source\repos\OPLab1\OPLab1\obj\Debug\netcoreapp3.1\OPLab1.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\OPLab1\OPLab1\obj\Debug\netcoreapp3.1\OPLab1.genruntimeconfig.cache
+C:\Users\Artem\source\repos\OPLab1\OPLab1\bin\Debug\netcoreapp3.1\`.exe
+C:\Users\Artem\source\repos\OPLab1\OPLab1\bin\Debug\netcoreapp3.1\`.deps.json
+C:\Users\Artem\source\repos\OPLab1\OPLab1\bin\Debug\netcoreapp3.1\`.runtimeconfig.json
+C:\Users\Artem\source\repos\OPLab1\OPLab1\bin\Debug\netcoreapp3.1\`.runtimeconfig.dev.json
+C:\Users\Artem\source\repos\OPLab1\OPLab1\bin\Debug\netcoreapp3.1\`.dll
+C:\Users\Artem\source\repos\OPLab1\OPLab1\bin\Debug\netcoreapp3.1\`.pdb
+C:\Users\Artem\source\repos\OPLab1\OPLab1\obj\Debug\netcoreapp3.1\`.dll
+C:\Users\Artem\source\repos\OPLab1\OPLab1\obj\Debug\netcoreapp3.1\`.pdb
