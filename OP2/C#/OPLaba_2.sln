@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OPLaba_2", "OPLaba_2\OPLaba_2.csproj", "{301E9685-9FA0-48E9-9F02-3589F5AC0D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OP-laba2Library", "OP-laba2\OP-laba2Library.csproj", "{03B7D0F9-DBAB-43FE-A9E4-A42C57150156}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{301E9685-9FA0-48E9-9F02-3589F5AC0D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301E9685-9FA0-48E9-9F02-3589F5AC0D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301E9685-9FA0-48E9-9F02-3589F5AC0D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301E9685-9FA0-48E9-9F02-3589F5AC0D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B7D0F9-DBAB-43FE-A9E4-A42C57150156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B7D0F9-DBAB-43FE-A9E4-A42C57150156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B7D0F9-DBAB-43FE-A9E4-A42C57150156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B7D0F9-DBAB-43FE-A9E4-A42C57150156}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F460962-7EA6-4C9F-9CD1-21697AF9C7D8}
+	EndGlobalSection
+EndGlobal
