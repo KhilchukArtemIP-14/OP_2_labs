@@ -1,0 +1,16 @@
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\bin\Debug\netcoreapp3.1\OPLaba_2.exe
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\bin\Debug\netcoreapp3.1\OPLaba_2.deps.json
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\bin\Debug\netcoreapp3.1\OPLaba_2.runtimeconfig.json
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\bin\Debug\netcoreapp3.1\OPLaba_2.runtimeconfig.dev.json
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\bin\Debug\netcoreapp3.1\OPLaba_2.dll
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\bin\Debug\netcoreapp3.1\OPLaba_2.pdb
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\obj\Debug\netcoreapp3.1\OPLaba_2.csproj.AssemblyReference.cache
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\obj\Debug\netcoreapp3.1\OPLaba_2.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\obj\Debug\netcoreapp3.1\OPLaba_2.AssemblyInfo.cs
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\obj\Debug\netcoreapp3.1\OPLaba_2.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\obj\Debug\netcoreapp3.1\OPLaba_2.dll
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\obj\Debug\netcoreapp3.1\OPLaba_2.pdb
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\obj\Debug\netcoreapp3.1\OPLaba_2.genruntimeconfig.cache
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\bin\Debug\netcoreapp3.1\OP-laba2Library.dll
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\bin\Debug\netcoreapp3.1\OP-laba2Library.pdb
+C:\Users\Artem\source\repos\OPLaba_2\OPLaba_2\obj\Debug\netcoreapp3.1\OPLaba_2.csproj.CopyComplete
