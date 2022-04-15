@@ -28,10 +28,17 @@ def DeserializeFile(path):
         with open(path, 'rb') as file:
             data = load(file)
             print('Note: last lecture ended at {yes}'.format(yes= data[-1]['endTime']))
-        return pari, pari[-1]['endTime']
+            return data, data[-1]['endTime']
     else:
         return [], -1
 
+def PrintOutRozKlad(pari):
+    if len(pari)!=0:
+        print('Name of lecture         Start     End\n')
+        for para in pari:
+            print(para['Name'].ljust(24,'-')+para['startTime'].ljust(10,'-')+para['endTime']+'\n')
+    else:
+        print("Note: no lectures were previously assigned\n")
 
 def GetTimeOfStart(lastParaTime):
     time = input('Please, input the correct time\n')
@@ -48,12 +55,13 @@ def GetName():
 
 def FillThatFile(path):
     pari, lastPara = DeserializeFile(path)
+    PrintOutRozKlad(pari)
     name = GetName()
     while name != '\02':
         start = GetTimeOfStart(lastPara)
         end = GetTimeOfEnd(start)
         lastPara=end
-        pari.append({'Name:': name, 'startTime:': start, 'endTime': end})
+        pari.append({'Name': name, 'startTime': start, 'endTime': end})
         name = GetName()
     file = open(path, 'wb')
     dump(pari,file)
