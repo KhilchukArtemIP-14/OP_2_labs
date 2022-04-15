@@ -18,9 +18,7 @@ namespace OPLaba_2
             Console.WriteLine("Please, input the name of your file:");
             return string.Concat("C:\\Users\\Artem\\Desktop\\forOP\\", Console.ReadLine(),".bin");
         }
-       
         
-
         public static string GetName()
         {
             Console.WriteLine("Please, enter the name of your para");
@@ -55,16 +53,14 @@ namespace OPLaba_2
             return hours * 60 + minutes;
         }
 
-        public static Tuple<string, List<Para>> GetDeserializedData(string path)
+        public static List<Para> GetDeserializedData(string path)
         {
             var formatter = new BinaryFormatter();
-            string lastPara;
             using (var stream = File.OpenRead(path))
             {
-                var readPari = (List<Para>)formatter.Deserialize(stream);
-                lastPara = readPari[readPari.Count - 1].endTime;
-                Console.WriteLine("Note: last lecture ended at {0}", lastPara);
-                return Tuple.Create(lastPara, readPari);
+
+                return (List<Para>)formatter.Deserialize(stream);
+
             }
         }
 
@@ -72,13 +68,16 @@ namespace OPLaba_2
         {
             List<Para> pari = new List<Para>();
             int timeOfLastParaInMinutes = -1;
+
             if (File.Exists(path))
             {
                 var previosData =GetDeserializedData(path);
-                timeOfLastParaInMinutes = ConvertTimeToMins(previosData.Item1);
-                pari = previosData.Item2;
+                pari = previosData;
+                timeOfLastParaInMinutes = ConvertTimeToMins(previosData[previosData.Count-1].endTime);
             }
 
+            PrintOutRozklad(pari);
+            
             string startTime, endTime, name;
             while ((name = GetName()) != Convert.ToString('\u0002'))
             {
@@ -97,12 +96,27 @@ namespace OPLaba_2
                   timeOfLastParaInMinutes = ConvertTimeToMins(endTime);
                   pari.Add(new Para(name, startTime, endTime));
             }
-
+            
             var formatter = new BinaryFormatter();
             using (var stream = File.OpenWrite(path))
             {
                 formatter.Serialize(stream, pari);
             }
         }
+
+        public static void PrintOutRozklad(List<Para> pari)
+        {
+            if (pari.Count != 0)
+            {
+                Console.WriteLine("List of previously assigned lectures:\n");
+                Console.WriteLine("Name of lecture         Start     End\n");
+                foreach (Para lecture in pari)
+                {
+                    lecture.PrintOutData();
+                }
+            }
+            else Console.WriteLine("Note: no lectures were previously assigned");
+        }
+
     }
 }

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Runtime.Serialization.Formatters.Binary;
 
 namespace OP_laba2Library
 {
@@ -16,6 +13,13 @@ namespace OP_laba2Library
             name = nazva;
             startTime = start;
             endTime=end;
+        }
+        public void PrintOutData()
+        {
+                Console.Write(this.name.PadRight(24, '-'));
+                Console.Write(this.startTime.PadRight(10, '-'));
+                Console.Write(this.endTime);
+                Console.WriteLine("\n");
         }
     }
 
