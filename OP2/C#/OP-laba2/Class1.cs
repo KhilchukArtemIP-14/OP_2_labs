@@ -14,6 +14,7 @@ namespace OP_laba2Library
             startTime = start;
             endTime=end;
         }
+
         public void PrintOutData()
         {
                 Console.Write(this.name.PadRight(24, '-'));
