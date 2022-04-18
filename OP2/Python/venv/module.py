@@ -24,14 +24,27 @@ def GetTimeOfEnd(start):
 
 
 def DeserializeFile(path):
+    pari = []
     if (exists(path)):
         with open(path, 'rb') as file:
-            data = load(file)
-            print('Note: last lecture ended at {yes}'.format(yes= data[-1]['endTime']))
-        return pari, pari[-1]['endTime']
+            while True:
+                try:
+                    temp = load(file)
+                except EOFError:
+                    break
+                pari.append(temp)
+            #print('Note: last lecture ended at {yes}'.format(yes= data[-1]['endTime']))
+            return pari, pari[-1]['endTime']
     else:
-        return [], -1
+        return pari, -1
 
+def PrintOutRozklad(pari):
+    if len(pari)!=0:
+        print('Name of lecture---------Start-----End\n')
+        for para in pari:
+            print(para['Name'].ljust(24,'-')+para['startTime'].ljust(10,'-')+para['endTime']+'\n')
+    else:
+        print("Note: no lectures were previously assigned\n")
 
 def GetTimeOfStart(lastParaTime):
     time = input('Please, input the correct time\n')
@@ -47,14 +60,18 @@ def GetName():
 
 
 def FillThatFile(path):
-    pari, lastPara = DeserializeFile(path)
+    oldPari, endTimeOfLastPara = DeserializeFile(path)
+    PrintOutRozklad(oldPari)
     name = GetName()
+    newPari=[]
     while name != '\02':
-        start = GetTimeOfStart(lastPara)
+        start = GetTimeOfStart(endTimeOfLastPara)
         end = GetTimeOfEnd(start)
-        lastPara=end
-        pari.append({'Name:': name, 'startTime:': start, 'endTime': end})
+        endTimeOfLastPara=end
+        newPari.append({'Name': name, 'startTime': start, 'endTime': end})
         name = GetName()
-    file = open(path, 'wb')
-    dump(pari,file)
-    file.close()
+    with open(path, 'ab') as file:
+         for para in newPari:
+             dump(para,file)
+
+
