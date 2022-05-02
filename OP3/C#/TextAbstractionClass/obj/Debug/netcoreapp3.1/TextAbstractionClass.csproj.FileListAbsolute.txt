@@ -1,0 +1,9 @@
+C:\Users\Artem\source\repos\OP3Laba\TextAbstractionClass\bin\Debug\netcoreapp3.1\TextAbstractionClass.deps.json
+C:\Users\Artem\source\repos\OP3Laba\TextAbstractionClass\bin\Debug\netcoreapp3.1\TextAbstractionClass.dll
+C:\Users\Artem\source\repos\OP3Laba\TextAbstractionClass\bin\Debug\netcoreapp3.1\TextAbstractionClass.pdb
+C:\Users\Artem\source\repos\OP3Laba\TextAbstractionClass\obj\Debug\netcoreapp3.1\TextAbstractionClass.csproj.AssemblyReference.cache
+C:\Users\Artem\source\repos\OP3Laba\TextAbstractionClass\obj\Debug\netcoreapp3.1\TextAbstractionClass.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\OP3Laba\TextAbstractionClass\obj\Debug\netcoreapp3.1\TextAbstractionClass.AssemblyInfo.cs
+C:\Users\Artem\source\repos\OP3Laba\TextAbstractionClass\obj\Debug\netcoreapp3.1\TextAbstractionClass.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\OP3Laba\TextAbstractionClass\obj\Debug\netcoreapp3.1\TextAbstractionClass.dll
+C:\Users\Artem\source\repos\OP3Laba\TextAbstractionClass\obj\Debug\netcoreapp3.1\TextAbstractionClass.pdb

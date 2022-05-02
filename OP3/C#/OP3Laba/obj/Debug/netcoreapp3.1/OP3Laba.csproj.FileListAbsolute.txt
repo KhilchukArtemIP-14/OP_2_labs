@@ -1,0 +1,16 @@
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\bin\Debug\netcoreapp3.1\OP3Laba.exe
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\bin\Debug\netcoreapp3.1\OP3Laba.deps.json
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\bin\Debug\netcoreapp3.1\OP3Laba.runtimeconfig.json
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\bin\Debug\netcoreapp3.1\OP3Laba.runtimeconfig.dev.json
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\bin\Debug\netcoreapp3.1\OP3Laba.dll
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\bin\Debug\netcoreapp3.1\OP3Laba.pdb
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\bin\Debug\netcoreapp3.1\TextAbstractionClass.dll
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\bin\Debug\netcoreapp3.1\TextAbstractionClass.pdb
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\obj\Debug\netcoreapp3.1\OP3Laba.csproj.AssemblyReference.cache
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\obj\Debug\netcoreapp3.1\OP3Laba.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\obj\Debug\netcoreapp3.1\OP3Laba.AssemblyInfo.cs
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\obj\Debug\netcoreapp3.1\OP3Laba.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\obj\Debug\netcoreapp3.1\OP3Laba.csproj.CopyComplete
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\obj\Debug\netcoreapp3.1\OP3Laba.dll
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\obj\Debug\netcoreapp3.1\OP3Laba.pdb
+C:\Users\Artem\source\repos\OP3Laba\OP3Laba\obj\Debug\netcoreapp3.1\OP3Laba.genruntimeconfig.cache
