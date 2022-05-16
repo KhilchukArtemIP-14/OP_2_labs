@@ -1,0 +1,16 @@
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\bin\Debug\netcoreapp3.1\OP4Laba.exe
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\bin\Debug\netcoreapp3.1\OP4Laba.deps.json
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\bin\Debug\netcoreapp3.1\OP4Laba.runtimeconfig.json
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\bin\Debug\netcoreapp3.1\OP4Laba.runtimeconfig.dev.json
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\bin\Debug\netcoreapp3.1\OP4Laba.dll
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\bin\Debug\netcoreapp3.1\OP4Laba.pdb
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\bin\Debug\netcoreapp3.1\RomanNumbers.dll
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\bin\Debug\netcoreapp3.1\RomanNumbers.pdb
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\obj\Debug\netcoreapp3.1\OP4Laba.csproj.AssemblyReference.cache
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\obj\Debug\netcoreapp3.1\OP4Laba.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\obj\Debug\netcoreapp3.1\OP4Laba.AssemblyInfo.cs
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\obj\Debug\netcoreapp3.1\OP4Laba.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\obj\Debug\netcoreapp3.1\OP4Laba.csproj.CopyComplete
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\obj\Debug\netcoreapp3.1\OP4Laba.dll
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\obj\Debug\netcoreapp3.1\OP4Laba.pdb
+C:\Users\Artem\source\repos\OPLaba4\OP4Laba\obj\Debug\netcoreapp3.1\OP4Laba.genruntimeconfig.cache
