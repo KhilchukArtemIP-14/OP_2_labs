@@ -1,0 +1,9 @@
+C:\Users\Artem\source\repos\OPLaba4\OPLaba4\bin\Debug\netcoreapp3.1\RomanNumbers.deps.json
+C:\Users\Artem\source\repos\OPLaba4\OPLaba4\bin\Debug\netcoreapp3.1\RomanNumbers.dll
+C:\Users\Artem\source\repos\OPLaba4\OPLaba4\bin\Debug\netcoreapp3.1\RomanNumbers.pdb
+C:\Users\Artem\source\repos\OPLaba4\OPLaba4\obj\Debug\netcoreapp3.1\RomanNumbers.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\OPLaba4\OPLaba4\obj\Debug\netcoreapp3.1\RomanNumbers.AssemblyInfo.cs
+C:\Users\Artem\source\repos\OPLaba4\OPLaba4\obj\Debug\netcoreapp3.1\RomanNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\OPLaba4\OPLaba4\obj\Debug\netcoreapp3.1\RomanNumbers.dll
+C:\Users\Artem\source\repos\OPLaba4\OPLaba4\obj\Debug\netcoreapp3.1\RomanNumbers.pdb
+C:\Users\Artem\source\repos\OPLaba4\OPLaba4\obj\Debug\netcoreapp3.1\RomanNumbers.csproj.AssemblyReference.cache
