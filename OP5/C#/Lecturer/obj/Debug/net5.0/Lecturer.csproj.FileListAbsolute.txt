@@ -1,0 +1,15 @@
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\bin\Debug\net5.0\Lecturer.deps.json
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\bin\Debug\net5.0\Lecturer.dll
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\bin\Debug\net5.0\ref\Lecturer.dll
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\bin\Debug\net5.0\Lecturer.pdb
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\bin\Debug\net5.0\Person.dll
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\bin\Debug\net5.0\Person.pdb
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\obj\Debug\net5.0\Lecturer.csproj.AssemblyReference.cache
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\obj\Debug\net5.0\Lecturer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\obj\Debug\net5.0\Lecturer.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\obj\Debug\net5.0\Lecturer.AssemblyInfo.cs
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\obj\Debug\net5.0\Lecturer.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\obj\Debug\net5.0\Lecturer.csproj.CopyComplete
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\obj\Debug\net5.0\Lecturer.dll
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\obj\Debug\net5.0\ref\Lecturer.dll
+C:\Users\Artem\source\repos\OPLaba5\Lecturer\obj\Debug\net5.0\Lecturer.pdb
