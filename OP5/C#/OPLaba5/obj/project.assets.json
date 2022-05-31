@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Lecturer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Person": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Lecturer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lecturer.dll": {}
+        }
+      },
+      "Person/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Person.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Person.dll": {}
+        }
+      },
+      "Student/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Person": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Student.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Student.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lecturer/1.0.0": {
+      "type": "project",
+      "path": "../Lecturer/Lecturer.csproj",
+      "msbuildProject": "../Lecturer/Lecturer.csproj"
+    },
+    "Person/1.0.0": {
+      "type": "project",
+      "path": "../Person/Person.csproj",
+      "msbuildProject": "../Person/Person.csproj"
+    },
+    "Student/1.0.0": {
+      "type": "project",
+      "path": "../Student/Student.csproj",
+      "msbuildProject": "../Student/Student.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Lecturer >= 1.0.0",
+      "Student >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Artem\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Artem\\source\\repos\\OPLaba5\\OPLaba5\\OPLaba5.csproj",
+      "projectName": "OPLaba5",
+      "projectPath": "C:\\Users\\Artem\\source\\repos\\OPLaba5\\OPLaba5\\OPLaba5.csproj",
+      "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Artem\\source\\repos\\OPLaba5\\OPLaba5\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Artem\\source\\repos\\OPLaba5\\Lecturer\\Lecturer.csproj": {
+              "projectPath": "C:\\Users\\Artem\\source\\repos\\OPLaba5\\Lecturer\\Lecturer.csproj"
+            },
+            "C:\\Users\\Artem\\source\\repos\\OPLaba5\\Student\\Student.csproj": {
+              "projectPath": "C:\\Users\\Artem\\source\\repos\\OPLaba5\\Student\\Student.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

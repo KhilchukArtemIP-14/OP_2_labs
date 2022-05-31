@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "OPLaba5/1.0.0": {
+        "dependencies": {
+          "Lecturer": "1.0.0",
+          "Student": "1.0.0"
+        },
+        "runtime": {
+          "OPLaba5.dll": {}
+        }
+      },
+      "Lecturer/1.0.0": {
+        "dependencies": {
+          "Person": "1.0.0"
+        },
+        "runtime": {
+          "Lecturer.dll": {}
+        }
+      },
+      "Person/1.0.0": {
+        "runtime": {
+          "Person.dll": {}
+        }
+      },
+      "Student/1.0.0": {
+        "dependencies": {
+          "Person": "1.0.0"
+        },
+        "runtime": {
+          "Student.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OPLaba5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lecturer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Person/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Student/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
