@@ -1,0 +1,16 @@
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\bin\Debug\net5.0\OPLaba6.exe
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\bin\Debug\net5.0\OPLaba6.deps.json
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\bin\Debug\net5.0\OPLaba6.runtimeconfig.json
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\bin\Debug\net5.0\OPLaba6.runtimeconfig.dev.json
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\bin\Debug\net5.0\OPLaba6.dll
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\bin\Debug\net5.0\ref\OPLaba6.dll
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\bin\Debug\net5.0\OPLaba6.pdb
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\obj\Debug\net5.0\OPLaba6.csproj.AssemblyReference.cache
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\obj\Debug\net5.0\OPLaba6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\obj\Debug\net5.0\OPLaba6.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\obj\Debug\net5.0\OPLaba6.AssemblyInfo.cs
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\obj\Debug\net5.0\OPLaba6.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\obj\Debug\net5.0\OPLaba6.dll
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\obj\Debug\net5.0\ref\OPLaba6.dll
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\obj\Debug\net5.0\OPLaba6.pdb
+C:\Users\Artem\source\repos\OPLaba6\OPLaba6\obj\Debug\net5.0\OPLaba6.genruntimeconfig.cache
